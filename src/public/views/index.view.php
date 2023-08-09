@@ -1,10 +1,13 @@
-<h2>index</h2>
-<main class='container'>
+    <h2>List of products</h2>
+
+<?php if (!empty($products)): ?>
     <ul>
-        <?php foreach ($products as $product): ?>
+        <?php foreach($products as $product): ?>
             <li>
-                <?= $product['productName']?>
+                <a href="/product.php?productCode=<?= $product['productCode'] ?>">
+                    <?= $product['productName'] ?>
+                </a>
             </li>
         <?php endforeach; ?>
     </ul>
-</main>    
+<?php endif; ?>
