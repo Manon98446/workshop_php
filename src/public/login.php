@@ -12,7 +12,7 @@ if (empty($_POST)) {
 } else {
     try {
         // 2 - Connexion à la DB
-        require_once 'public/db/connection.php';
+        require_once 'public/db/Database.php';
 
         // 3 - Vérification des données
             // 3.1 - Pas vides ?
