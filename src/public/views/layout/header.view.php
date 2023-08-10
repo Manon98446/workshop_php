@@ -17,6 +17,9 @@
             <ul>
                 Bonjour <?= $_SESSION['user']['username'] ?>
                 <li><a href="/register.php">Register</a></li>
+                <li><a href="/login.php">login</a></li>
+                <li><a href="/logout.php">logout</a></li>
+
             </ul>
         </nav>
     </header>

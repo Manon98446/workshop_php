@@ -1,4 +1,5 @@
-    <h2>List of products</h2>
+
+  <h2>List of products</h2>
 
 <?php if (!empty($products)): ?>
     <ul>
